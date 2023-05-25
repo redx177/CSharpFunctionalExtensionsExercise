@@ -1,5 +1,6 @@
 # Exercises for CSharpFunctionalExtensions
-In the file Cases.cs are some excercises for the CSharpFunctionalExtensions library.  
+In the file `Cases.cs` are some excercises for the CSharpFunctionalExtensions library.  
+Clone this repository and try to rewrite the methods in `Cases.cs` to use the CSharpFunctionalExtensions library.
 The goal is to have only one expression per method and never call `Result.Success` or `Result.Failure` manually.  
 Run the tests to validate your result.  
 
