@@ -7,17 +7,17 @@ namespace CSharpFunctionalExtensionsExercise;
 
 public class Tests
 {
-    //private readonly Cases _sut;
-    //public Tests()
-    //{
-    //    _sut = new Cases();
-    //}
-
-    private readonly Solution _sut;
+    private readonly Cases _sut;
     public Tests()
     {
-        _sut = new Solution();
+        _sut = new Cases();
     }
+
+    //private readonly Solution _sut;
+    //public Tests()
+    //{
+    //    _sut = new Solution();
+    //}
 
     [Fact]
     public void CaseA_WhenFirstFuncReturnsFailure_ThenReturnsThatFailure()
